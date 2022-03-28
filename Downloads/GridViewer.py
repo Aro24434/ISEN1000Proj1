@@ -18,3 +18,6 @@ def view(grid):
                     
             else:
                 raise AssertionError
+
+#test
+print('Hello')
