@@ -69,14 +69,14 @@ if __name__ == "__main__":
             print("Out of bounds") # Out of bounds.
             
         else:
-            if grid[currentRow][currentCol] == EMPTY:
+            if grid[Row][Col] == EMPTY:
                 grid[currentRow][currentCol] = VISITED
                 
-            elif grid[currentRow][currentCol] == WALL:
+            elif grid[Row][Col] == WALL:
                 done = True
                 print("You hit a wall") # Hit wall.
 
-            elif grid[currentRow][currentCol] == END:
+            elif grid[Row][Col] == END:
                 done = True
                 solved = True
                 print("You've escaped the Maze") # Solved.
