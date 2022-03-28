@@ -79,7 +79,7 @@ if __name__ == "__main__":
             elif grid[currentRow][currentCol] == END:
                 done = True
                 solved = True
-                print("MESSAGE 4") # Solved.
+                print("You've escaped the Maze") # Solved.
                 
             else:
                 pass # Do nothing
