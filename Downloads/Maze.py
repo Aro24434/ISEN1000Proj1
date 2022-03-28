@@ -69,7 +69,7 @@ if __name__ == "__main__":
             print("Out of bounds") # Out of bounds.
             
         else:
-            cell = grid[currentRow][currentCol]
+            cell = grid[Row][Col]
             if cell == EMPTY:
                 grid[currentRow][currentCol] = VISITED
                 
